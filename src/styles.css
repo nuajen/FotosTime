@@ -1,0 +1,21 @@
+.heading {
+  color: rosybrown;
+  padding-left: 40px;
+  border-bottom: 5px solid rosybrown;
+}
+
+.firma {
+  color: chocolate;
+}
+
+.heading.morning {
+  color: mediumseagreen;
+}
+
+.heading.afternoon {
+  color: purple;
+}
+
+.heading.night {
+  color: blue;
+}
