@@ -12,18 +12,18 @@ const currentTime = new Date().getHours();
 let timeOfDay = "noche"; // not used
 
 let timeOfDayColor = "#313131";
-let timeOfDayMessage = "¡Buenas noches Escondido!";
+let timeOfDayMessage = "¡Buenas noches!";
 
 if (currentTime < 12 && currentTime >= 0) {
   timeOfDay = "mañana";
 
   timeOfDayColor = "royalblue";
-  timeOfDayMessage = "¡Buenos días Escondido!";
+  timeOfDayMessage = "¡Buenos días!";
 } else if (currentTime >= 12 && currentTime <= 18) {
   timeOfDay = "tarde";
 
   timeOfDayColor = "purple";
-  timeOfDayMessage = "¡Buenas tardes Escondido!";
+  timeOfDayMessage = "¡Buenas tardes!";
 }
 
 const customStyle = {
